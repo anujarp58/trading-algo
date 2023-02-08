@@ -28,7 +28,7 @@ public class SignalStrategyFactory {
         return strategy;
     }
 
-    private static synchronized void initStrategyMap() {
+    public static synchronized void initStrategyMap() {
             Properties prop = new Properties();
             try (InputStream input = SignalStrategyFactory.class.getClassLoader().getResourceAsStream("config.properties")) {
                 prop.load(input);
