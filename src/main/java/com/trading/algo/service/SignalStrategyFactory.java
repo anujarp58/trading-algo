@@ -15,6 +15,7 @@ import java.util.Properties;
 
 public class SignalStrategyFactory {
     private static Map<Integer, SignalStrategy> strategyMap = new HashMap<>();
+
     //initialize the map lazily on the first call to get the strategy
     public static SignalStrategy getStrategy(int signal) {
         if (strategyMap.isEmpty()) {

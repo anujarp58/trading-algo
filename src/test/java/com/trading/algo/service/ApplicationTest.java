@@ -2,11 +2,11 @@ package com.trading.algo.service;
 
 import static org.mockito.Mockito.*;
 
-import com.trading.algo.Algo;
-import com.trading.algo.service.Application;
-import com.trading.algo.service.SignalStrategyFactory;
+import com.trading.algo.lib.Algo;
 import com.trading.algo.strategy.SignalStrategy;
 import org.junit.Test;
+
+
 public class ApplicationTest {
     @Test
     public void testHandleSignal() {

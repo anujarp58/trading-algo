@@ -5,10 +5,11 @@
  */
 package com.trading.algo.service;
 
-import com.trading.algo.Algo;
-import com.trading.algo.SignalHandler;
+import com.trading.algo.lib.Algo;
+import com.trading.algo.lib.SignalHandler;
 import com.trading.algo.strategy.SignalStrategy;
 import org.springframework.stereotype.Service;
+
 
 @Service
 public class Application  implements SignalHandler {

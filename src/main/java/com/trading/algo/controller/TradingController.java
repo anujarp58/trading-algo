@@ -5,7 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * This class is a controller class to handle signals
+ * This class is a controller class to handle incoming request
+ * with signal
  */
 @RestController
 @RequestMapping("/api")

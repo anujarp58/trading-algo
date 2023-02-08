@@ -1,5 +1,7 @@
-package com.trading.algo;
-
+package com.trading.algo.lib;
+/**
+ * This is implemented in a third-party library and we cannot change it
+ */
 public class Algo {
     public void doAlgo() {
         System.out.println("doAlgo");
